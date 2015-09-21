@@ -13,5 +13,7 @@ phantom_menace = """Turmoil has engulfed the Galactic Republic. The\
  Chancellor has secretly dispatched two Jedi Knights, the guardians of\
  peace and justice in the galaxy, to settle the conflict"""
 
-lenght = len(phantom_menace)
+a = phantom_menace.split()
+print(a)
+lenght = len(a)
 print(lenght)
