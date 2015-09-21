@@ -4,5 +4,5 @@
 
 Ceci est un script temporaire.
 """
-a = 2 + 2 != 5
-print(a)
+import sys
+print(sys.argv[0])
