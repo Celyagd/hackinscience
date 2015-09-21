@@ -5,5 +5,5 @@
 Ceci est un script temporaire.
 """
 name = "Hello World !"
-for i in name:
-    print(name)
+for c in name:
+    print(c)
