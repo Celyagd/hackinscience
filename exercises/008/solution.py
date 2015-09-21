@@ -4,6 +4,6 @@
 
 Ceci est un script temporaire.
 """
-name = "Hello World!"
+name = "Hello World !"
 for i in name:
     print(name)
