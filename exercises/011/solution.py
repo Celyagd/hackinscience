@@ -4,6 +4,6 @@
 
 Ceci est un script temporaire.
 """
-name = 'Hello World !'
-for c in range(99):
+name = 'Hello World'
+for c in range(100):
     print(name)
