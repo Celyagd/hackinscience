@@ -8,4 +8,4 @@ Created on Tue Sep 22 11:37:17 2015
 
 def sqrt(num):
     sqr = num ** 0.5
-    return print(sqr)
+    return sqr
