@@ -4,4 +4,4 @@
 
 Ceci est un script temporaire.
 """
-print("zyxwvUtsrqpOnmlkjIhgfEdcbA")
+print("abcdefghijklnmopqrstuvwxyz")

@@ -4,5 +4,4 @@
 
 Ceci est un script temporaire.
 """
-import string
-print(string.ascii_lowercase)
+print("abcdefghijklnmopqrstuvwxyz")
