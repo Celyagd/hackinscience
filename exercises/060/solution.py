@@ -8,4 +8,4 @@ import string
 r = string.ascii_lowercase
 for i in r:
     for n in r:
-        print(i, n)
+        print(i+n)
