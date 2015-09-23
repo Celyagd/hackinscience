@@ -5,7 +5,7 @@ Created on Wed Sep 23 15:17:58 2015
 @author: celyagruson-daniel
 """
 
-station = { 
+station = {
     'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
     'number': 31705,
     'latitude': 48.8645278209514,
