@@ -12,7 +12,7 @@ def love_meet(alice, bob):
     return a.intersection(b)
 
 
-def affair_meet(alice, bob, silvester):
+def affair_meet(bob, alice, silvester):
     a = set(alice)
     b = set(bob)
     s = set(silvester)
