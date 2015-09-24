@@ -49,4 +49,4 @@ def check_my_city(entree):
     else:
         return {"stations_nb": len(zip_code),
                 "zip_code": zip_code,
-                "city": entree.lower()} 
+                "city": entree.lower()}
