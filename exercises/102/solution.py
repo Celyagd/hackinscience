@@ -44,11 +44,9 @@ def check_my_city(entree):
         var = i['city'][:-1]
         if entree == var.upper() or entree == var.lower():
             zip_code.append(i['zip'][:-1])
-
     if len(zip_code) == 0:
         return "Sorry! No station for your city has been found!"
     else:
-        return {"stations_nb": len(zip_code), "zip_code": zip_code, "city": entree.lower()}
-   
-    
-    
+        return {"stations_nb": len(zip_code),
+                "zip_code": zip_code,
+                "city": entree.lower()} 
