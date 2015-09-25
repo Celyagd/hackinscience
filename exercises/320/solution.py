@@ -11,8 +11,8 @@ s = ""
 with open('words') as f:
     s += f.read()
 
-s = s.replace("\n","").replace("\'","")
+s = s.replace("\n", "").replace("\'", "")
 
 for l in string.ascii_lowercase:
-    a = re.findall(l,s)
-    print("{}: {:.2f}".format(l,float(len(a))/len(s)))
+    a = re.findall(l, s)
+    print("{}: {:.2f}".format(l, float(len(a)) / len(s)))
