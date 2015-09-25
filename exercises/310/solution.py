@@ -7,7 +7,6 @@ Created on Fri Sep 25 15:47:53 2015
 
 with open('words') as f:
     read_f = f.read()
-    print(len(read_f))
     count = 0
     for i in read_f:
         if 'e' in i:
