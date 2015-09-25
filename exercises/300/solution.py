@@ -7,4 +7,5 @@ Created on Fri Sep 25 10:02:45 2015
 
 with open('words') as f:
     read_f = f.read()
-    print(read_f[:-2])
+    f.close()
+    print(read_f)
