@@ -13,7 +13,7 @@ my_class = [['Kermit Wade', 27],
             ['Cen Ball', 5],
             ['William Lee', 2]]
 
-            
+          
 def select_student(my_class, mark_ok):
     accepted = []
     refused = []
