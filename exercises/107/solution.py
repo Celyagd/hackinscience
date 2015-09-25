@@ -4,10 +4,10 @@ Created on Thu Sep 24 16:30:18 2015
 
 @author: celyagruson-daniel
 """
+from operator import itemgetter
 
 
 def select_student(my_class, mark_ok):
-    from operator import itemgetter
     accepted = []
     refused = []
     my_class_sort = sorted(my_class, key=itemgetter(1))
